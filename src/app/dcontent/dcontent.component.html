@@ -1,3 +1,4 @@
 <ng-container *ngFor="let item of list">
   <ng-container *ngTemplateOutlet="template; context: {$implicit: item}"></ng-container>
 </ng-container>
+<ng-content></ng-content>

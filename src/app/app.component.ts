@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
-  list = [{name:'mantu'},{name:'mantu1'},{name:'mantu2'}];
+  list = [{name:'test1'},{name:'test2'},{name:'test3'}];
 }
